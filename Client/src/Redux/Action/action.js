@@ -3,7 +3,7 @@ import * as types from "./actiontypes";
 const getLocationData = (params) => (dispatch) => {
   dispatch({ type: types.GET_LOCATIONDATA_REQUEST });
   return axios
-    .get(`https://erin-lovely-llama.cyclic.app/booking?city=${params}`)
+    .get(`https://busy-jade-lion-tux.cyclic.app/booking?city=${params}`)
     .then((res) => {
       let data = res.data;
       console.log(data);

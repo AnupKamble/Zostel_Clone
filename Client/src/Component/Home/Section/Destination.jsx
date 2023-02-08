@@ -11,7 +11,7 @@ function Destination() {
     let [data, setData] = useState([]);
 
     let fetchData = async () => {
-        let responce = await fetch(`https://erin-lovely-llama.cyclic.app/destination`);
+        let responce = await fetch(`https://busy-jade-lion-tux.cyclic.app/destination`);
         let data = await responce.json();
         setData(data);
         // console.log(data);

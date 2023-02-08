@@ -9,7 +9,7 @@ import LatestReadCard from "../HomeComponent/LatestReadCard";
 function Latest() {
     let [data, setData] = useState([]);
     let fetchData = async () => {
-        let responce = await fetch(`https://erin-lovely-llama.cyclic.app/latestread`);
+        let responce = await fetch(`https://busy-jade-lion-tux.cyclic.app/latestread`);
         let data = await responce.json();
         setData(data);
     }
